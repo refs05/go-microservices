@@ -1,0 +1,62 @@
+# .gitignore for Go
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.cover
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Compiled Go files
+*.o
+*.a
+*.o
+*.cgo*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+/bin
+/dist
+
+# IDE settings
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Vendored dependencies (if used)
+vendor/
+
+# Proto generated files (optional - uncomment to ignore)
+# *.pb.go
+# *_grpc.pb.go
+
+# Debugging
+debug.log
+
+# Temporary files
+*.tmp
+*.bak
